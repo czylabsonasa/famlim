@@ -1,7 +1,9 @@
 e           # az e-szám
-   1              # Alap
+   1              # alap
    #
 nthroot     # n-edik gyök
-   1              # Konstans
+   1              # konstans
    2              # $n$
+   2a             # polinom
+   3              # $n!$
    #
