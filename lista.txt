@@ -1,3 +1,7 @@
-e # e-szám
-   1              #
+e           # az e-szám
+   1              # Alap
+   #
+nthroot     # n-edik gyök
+   1              # Konstans
+   2              # $n$
    #
