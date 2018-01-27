@@ -1,0 +1,46 @@
+
+%usepackage es egyebek
+\input{globdef.tex}
+
+%zarojel, FA...
+\input{locdef.tex}
+
+% zárójelek; rövidítések \de=differenciálegyenlet
+\input{otherdef.tex}
+
+% itt van a feladatok listája
+\begin{document}\begin{spacing}{1.2}
+
+
+   \section*{Nevezetes határértékek}
+
+   \section*{Tartalom} \label{Tart}
+         \nameref{e}\newline
+      \newpage
+      \section*{e-szám} \label{e}
+      \section*{Tartalom-e} \label{Tarte}
+         \nameref{e1}\newline
+         \kek{
+         \hfill{}\nameref{Tart}
+         }\newpage
+         \section*{e-1} \label{e1}
+         \Fa{
+            \input{DB/e/1Fa}
+         }
+         \Mo{
+         \nameref{e1Mo}
+         \hfill\nameref{Tarte}
+         }
+         \newpage
+         \section*{e-1-Mo} \label{e1Mo}
+         \Mo{
+            \input{DB/e/1Mo}
+         }
+         \Fa{
+         \nameref{e1}
+         }
+         \newpage
+
+\end{spacing}
+\end{document}
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+tipus=${1} 
+nev=${2}
+
+if [ -f DB/${tipus}/${nev}Fa.tex ];
+then
+   echo "problem "${tipus}/${nev}" exists. aborting"
+   exit 1
+fi
+echo "adding problem: "${tipus}/${nev}
+
+cd DB/${tipus}
+touch ${nev}Fa.tex 
+touch ${nev}Mo.tex
+cd ../..
+echo "done!"
