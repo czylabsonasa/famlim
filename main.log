@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  27 JAN 2018 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  27 JAN 2018 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1528,12 +1528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
 
-[2] (./DB/e/1Fa.tex) [3] (./DB/e/1Mo.tex
-Overfull \hbox (7.17441pt too wide) in paragraph at lines 15--15
-[] 
- []
-
-) [4]
+[2] (./DB/e/1Fa.tex) [3] (./DB/e/1Mo.tex) [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./main.aux)
@@ -1558,9 +1553,9 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (4 pages, 71435 bytes).
+Output written on main.pdf (4 pages, 72815 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
  11 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
