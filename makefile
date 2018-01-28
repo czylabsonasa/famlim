@@ -1,6 +1,6 @@
-default: proba
+default: main
 
-proba:
+main:
 	python3 lista2osszes.py < lista.txt > main.tex
 	rubber -d main.tex
 clean:
