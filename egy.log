@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  27 JAN 2018 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  28 JAN 2018 14:10
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **egy.tex
 (./egy.tex
@@ -1518,40 +1519,64 @@ e
 ))
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count320
- (./DB/nthroot/3Fa.tex)
-(./DB/nthroot/3Mo.tex) [1
+ (./DB/nthroot/SumFa.tex)
+(./DB/nthroot/SumMo.tex
+Package epstopdf Info: Source file: <DB/nthroot/fig/elso.eps>
+(epstopdf)                    date: 2018-01-28 13:59:03
+(epstopdf)                    size: 44303 bytes
+(epstopdf)             Output file: <DB/nthroot/fig/elso-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-28 13:59:20
+(epstopdf)                    size: 7253 bytes
+(epstopdf)             Command: <repstopdf --outfile=DB/nthroot/fig/elso-eps-co
+nverted-to.pdf DB/nthroot/fig/elso.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+<DB/nthroot/fig/elso-eps-converted-to.pdf, id=43, pagebox=cropbox, 217.81375pt 
+x 66.2475pt>
+File: DB/nthroot/fig/elso-eps-converted-to.pdf Graphic file (type pdf)
+<use DB/nthroot/fig/elso-eps-converted-to.pdf>
+Package pdftex.def Info: DB/nthroot/fig/elso-eps-converted-to.pdf  used on inpu
+t line 16. on input line 16.
+Package pdftex.def Info: Requested size: 261.37517pt x 79.49658pt on input line
+ 16.
+) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./DB/nthroot/fig/elso-eps-
+converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
-
-(./egy.aux)
+ (./egy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `egy.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 12 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 36660 strings out of 494275
- 709954 string characters out of 6162937
- 780614 words of memory out of 5000000
- 39560 multiletter control sequences out of 15000+600000
- 534539 words of font info for 37 fonts, out of 8000000 for 9000
+ 36687 strings out of 494275
+ 710349 string characters out of 6162937
+ 782614 words of memory out of 5000000
+ 39569 multiletter control sequences out of 15000+600000
+ 536406 words of font info for 40 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
- 65i,17n,101p,10482b,990s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/nosy/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600p
-k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on egy.pdf (1 page, 69988 bytes).
+ 65i,14n,101p,10482b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/nosy/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
+/tcrm1728.600pk> </home/nosy/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecrm1728.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on egy.pdf (1 page, 78142 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
