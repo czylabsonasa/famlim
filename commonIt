@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "refresing common files"
+cd common
+chmod --silent +w *
+rm -f *.*
+cp ../../common/* .
+chmod 0 *
+chmod +r *
+cd ..
+echo "done!"

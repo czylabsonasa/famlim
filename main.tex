@@ -1,18 +1,21 @@
 
 %usepackage es egyebek
-\input{globdef.tex}
+\input{common/globdef.tex}
 
 %zarojel, FA...
-\input{locdef.tex}
+\input{common/matdef.tex}
 
-% zárójelek; rövidítések \de=differenciálegyenlet
-\input{otherdef.tex}
+% rövidítések
+\input{common/szavakdef.tex}
+
+% tcolorbox-al kapcsolatos
+\input{common/tcboxdef.tex}
 
 % itt van a feladatok listája
 \begin{document}\begin{spacing}{1.2}
 
 
-   \section*{Nevezetes határértékek}
+\input{cim}
 
    \section*{Tartalom} \label{Tart}
          \nameref{e}\newline

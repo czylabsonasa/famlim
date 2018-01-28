@@ -29,13 +29,16 @@ def olvas():
 
 thepre=r"""
 %usepackage es egyebek
-\input{globdef.tex}
+\input{common/globdef.tex}
 
 %zarojel, FA...
-\input{locdef.tex}
+\input{common/matdef.tex}
 
-% zárójelek; rövidítések \de=differenciálegyenlet
-\input{otherdef.tex}
+% rövidítések
+\input{common/szavakdef.tex}
+
+% tcolorbox-al kapcsolatos
+\input{common/tcboxdef.tex}
 
 % itt van a feladatok listája
 \begin{document}\begin{spacing}{1.2}
@@ -109,7 +112,7 @@ d4=d2+d2
 
 print(thepre)
 print(r"""
-   \section*{Nevezetes határértékek}
+\input{cim}
 """)
 
 minden=olvas()
