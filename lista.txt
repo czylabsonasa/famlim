@@ -1,10 +1,12 @@
-e           # az e-szám # T
-   1              # alap # F
-#
-nthroot     # n-edik gyök # T
-   Sum            # Mi is ez? # F
-   1              # konstans # F
-   2              # $n$ # F
-   2a             # polinom # F
-   3              # $n!$ # F
+famlim # Nevezetes határértékek # T
+   e           # az e-szám # T
+      1              # alap # F
+   #
+   nthroot     # n-edik gyök # T
+      Sum            # Létezés... # F
+      1              # konstans # F
+      2              # $n$ # F
+      2a             # polinom # F
+      3              # $n!$ # F
+   #
 #

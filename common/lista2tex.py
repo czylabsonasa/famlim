@@ -69,7 +69,10 @@ def olvas():
    return minden
 # end of olvas
 
-minden=olvas()
+minden=olvas()[0]
+title=minden[1]
+
+
 #~ print(minden)
 #~ sys.exit('debug')
 
@@ -141,6 +144,5 @@ def travlist(akt, path, lab, plab, mname):
 
 
 print(thepre)
-import title
-travlist(minden,'DB','DB','', title.title)
+travlist(minden[3],'DB','DB','', title)
 print(thepost)
