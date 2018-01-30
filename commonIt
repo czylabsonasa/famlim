@@ -5,6 +5,7 @@ cd common
 chmod --silent +w *
 rm -f *.*
 cp ../../common/* .
+cp lista2tex.py ..
 chmod 0 *
 chmod +r *
 cd ..

@@ -1,10 +1,10 @@
-e           # az e-szám
-   1              # alap
-   #
-nthroot     # n-edik gyök
-   Sum            # Summa
-   1              # konstans
-   2              # $n$
-   2a             # polinom
-   3              # $n!$
-   #
+e           # az e-szám # T
+   1              # alap # F
+#
+nthroot     # n-edik gyök # T
+   Sum            # Mi is ez? # F
+   1              # konstans # F
+   2              # $n$ # F
+   2a             # polinom # F
+   3              # $n!$ # F
+#
