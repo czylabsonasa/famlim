@@ -17,6 +17,8 @@
 \nameref{DBe}
 \newline
 \nameref{DBnthroot}
+\newline
+\nameref{DBsin}
 \newpage
 \section*{az e-szám} \label{DBe}
 \nameref{DBe1}
@@ -25,7 +27,7 @@
 \hfill\nameref{DB}
 }
 \newpage
-\section*{alap-Fa} \label{DBe1}
+\section*{\mcode{Fa}alap} \label{DBe1}
 \Fa{
 \input{DB/e/1Fa}
 }
@@ -35,7 +37,7 @@
 \hfill\nameref{DBe}
 }
 \newpage
-\section*{alap-Mo} \label{DBe1Mo}
+\section*{\mcode{Mo}alap} \label{DBe1Mo}
 \Mo{
 \input{DB/e/1Mo}
 }
@@ -60,7 +62,7 @@
 \hfill\nameref{DB}
 }
 \newpage
-\section*{Létezés...-Fa} \label{DBnthrootSum}
+\section*{\mcode{Fa}Létezés...} \label{DBnthrootSum}
 \Fa{
 \input{DB/nthroot/SumFa}
 }
@@ -70,7 +72,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{Létezés...-Mo} \label{DBnthrootSumMo}
+\section*{\mcode{Mo}Létezés...} \label{DBnthrootSumMo}
 \Mo{
 \input{DB/nthroot/SumMo}
 }
@@ -80,7 +82,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{konstans-Fa} \label{DBnthroot1}
+\section*{\mcode{Fa}konstans} \label{DBnthroot1}
 \Fa{
 \input{DB/nthroot/1Fa}
 }
@@ -90,7 +92,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{konstans-Mo} \label{DBnthroot1Mo}
+\section*{\mcode{Mo}konstans} \label{DBnthroot1Mo}
 \Mo{
 \input{DB/nthroot/1Mo}
 }
@@ -100,7 +102,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{$n$-Fa} \label{DBnthroot2}
+\section*{\mcode{Fa}$n$} \label{DBnthroot2}
 \Fa{
 \input{DB/nthroot/2Fa}
 }
@@ -110,7 +112,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{$n$-Mo} \label{DBnthroot2Mo}
+\section*{\mcode{Mo}$n$} \label{DBnthroot2Mo}
 \Mo{
 \input{DB/nthroot/2Mo}
 }
@@ -120,7 +122,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{polinom-Fa} \label{DBnthroot2a}
+\section*{\mcode{Fa}polinom} \label{DBnthroot2a}
 \Fa{
 \input{DB/nthroot/2aFa}
 }
@@ -130,7 +132,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{polinom-Mo} \label{DBnthroot2aMo}
+\section*{\mcode{Mo}polinom} \label{DBnthroot2aMo}
 \Mo{
 \input{DB/nthroot/2aMo}
 }
@@ -140,7 +142,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{$n!$-Fa} \label{DBnthroot3}
+\section*{\mcode{Fa}$n!$} \label{DBnthroot3}
 \Fa{
 \input{DB/nthroot/3Fa}
 }
@@ -150,7 +152,7 @@
 \hfill\nameref{DBnthroot}
 }
 \newpage
-\section*{$n!$-Mo} \label{DBnthroot3Mo}
+\section*{\mcode{Mo}$n!$} \label{DBnthroot3Mo}
 \Mo{
 \input{DB/nthroot/3Mo}
 }
@@ -158,6 +160,77 @@
 \LINK{
 \nameref{DBnthroot3}
 \hfill\nameref{DBnthroot}
+}
+\newpage
+\section*{$\frac{\sin(x)}{x}$ és környéke} \label{DBsin}
+\nameref{DBsin1}
+\newline
+\nameref{DBsin2}
+\newline
+\nameref{DBsin3}
+\vspace{0.5cm}
+\LINK{
+\hfill\nameref{DB}
+}
+\newpage
+\section*{\mcode{Fa}$\frac{\sin(x)}{x}\to 1$} \label{DBsin1}
+\Fa{
+\input{DB/sin/1Fa}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin1Mo}
+\hfill\nameref{DBsin}
+}
+\newpage
+\section*{\mcode{Mo}$\frac{\sin(x)}{x}\to 1$} \label{DBsin1Mo}
+\Mo{
+\input{DB/sin/1Mo}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin1}
+\hfill\nameref{DBsin}
+}
+\newpage
+\section*{\mcode{Fa}$\frac{1-\cos(x)}{x}\to 0$} \label{DBsin2}
+\Fa{
+\input{DB/sin/2Fa}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin2Mo}
+\hfill\nameref{DBsin}
+}
+\newpage
+\section*{\mcode{Mo}$\frac{1-\cos(x)}{x}\to 0$} \label{DBsin2Mo}
+\Mo{
+\input{DB/sin/2Mo}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin2}
+\hfill\nameref{DBsin}
+}
+\newpage
+\section*{\mcode{Fa}$\frac{\tg(x)-x}{x^2}\to 0$} \label{DBsin3}
+\Fa{
+\input{DB/sin/3Fa}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin3Mo}
+\hfill\nameref{DBsin}
+}
+\newpage
+\section*{\mcode{Mo}$\frac{\tg(x)-x}{x^2}\to 0$} \label{DBsin3Mo}
+\Mo{
+\input{DB/sin/3Mo}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBsin3}
+\hfill\nameref{DBsin}
 }
 \newpage
 

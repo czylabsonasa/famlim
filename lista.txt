@@ -9,4 +9,9 @@ famlim # Nevezetes határértékek # T
       2a             # polinom # F
       3              # $n!$ # F
    #
+   sin # $\frac{\sin(x)}{x}$ és környéke # T
+      1         # $\frac{\sin(x)}{x}\to 1$ # F
+      2         # $\frac{1-\cos(x)}{x}\to 0$ # F
+      3         # $\frac{\tg(x)-x}{x^2}\to 0$ # F
+   #
 #

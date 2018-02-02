@@ -1,37 +1,38 @@
 #!/bin/bash
 
-tema=${1} 
-nev=${2}
-tipus=${3}
+item=${1}
+tipus=${2}
 tar1=""
 tar2=""
 
-mkdir -p DB/${tema}
+itemdir="${item%/*}"
+nev="${item##DB*/}"
+
+mkdir -p ${itemdir}
 
 case "${tipus}" in
    "Fa" ) 
-      targ1=${nev}Fa.tex
-      targ2=${nev}Mo.tex
+      targ1=${nev}Fa
+      targ2=${nev}Mo
       ;;
    "Desc" ) 
-      targ1=${nev}Desc.tex
-      targ2=${nev}Desc.tex
+      targ1=${nev}Desc
+      targ2=${nev}Desc
       ;;
    * ) 
-      echo "hasznalat: ${0} tema nev [Fa|Desc]"
+      echo "hasznalat: ${0} item [Fa|Desc]"
       exit 1;
       ;;
 esac
 
-if [ -f DB/${tema}/${targ1} ];
+if [ -f ${itemdir}/${targ1}.tex ];
 then
-   echo ""${tema}/${nev}${tipus}" exists."
+   echo ""${itemdir}/${targ1}$" exists."
    exit 1
 fi
-echo "adding problem: "${tema}/${nev}
+echo "adding problem: "${itemdir}/${targ1}
 
-cd DB/${tema}
-touch ${targ1}
-touch ${targ2}
-cd ../..
+touch ${itemdir}/${targ1}.tex
+touch ${itemdir}/${targ2}.tex
+
 echo "done!"

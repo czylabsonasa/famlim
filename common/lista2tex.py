@@ -93,9 +93,7 @@ def travlist(akt, path, lab, plab, mname):
    print(r'\section*{{{name}}} \label{{{label}}}'.format(name=mname, label=lab))
    #print(r'Tartalom\newline')
    for elem in akt:
-      #print(r'\mcode{')
       print(r'\nameref{{{label}}}'.format(label=lab+elem[0]))
-      #print(r'}')
       if elem != akt[-1]:
          print(r'\newline')
 
@@ -111,7 +109,10 @@ def travlist(akt, path, lab, plab, mname):
          travlist(elem[3], path+'/'+elem[0], lab+elem[0], lab, elem[1])
       else:
          if 'F'==elem[2]:
-            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=elem[1]+'-Fa', label=lab+elem[0]))
+            nFa=r"\mcode{Fa}"+elem[1]
+            nMo=r"\mcode{Mo}"+elem[1]
+            #print(r'\section*{{{name}}} \label{{{label}}}'.format(name=elem[1]+'-Fa', label=lab+elem[0]))
+            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=nFa, label=lab+elem[0]))
             print(r'\Fa{')
             print(r'\input{{{mfile}}}'.format(mfile=path+'/'+elem[0]+'Fa'))
             print(r'}')
@@ -121,7 +122,8 @@ def travlist(akt, path, lab, plab, mname):
             print(r'\hfill\nameref{{{name}}}'.format(name=lab))
             print(r'}')
             print(r'\newpage')
-            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=elem[1]+'-Mo', label=lab+elem[0]+'Mo'))
+            #itt is
+            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=nMo, label=lab+elem[0]+'Mo'))
             print(r'\Mo{')
             print(r'\input{{{f}}}'.format(f=path+'/'+elem[0]+'Mo'))
             print(r'}')
@@ -132,8 +134,8 @@ def travlist(akt, path, lab, plab, mname):
             print(r'}')
             print(r'\newpage')
          else:
-            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=elem[1], label=lab+elem[0]))
-            print(r'\Fa{')
+            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=r'\mcode{Desc} '+elem[1], label=lab+elem[0]))
+            print(r'\Desc{')
             print(r'\input{{{f}}}'.format(f=path+'/'+elem[0]+'Desc'))
             print(r'}')
             print(r'\vspace{0.5cm}')

@@ -1,3 +1,13 @@
+%https://tex.stackexchange.com/questions/254324/how-to-creat-color-boxes-as-the-picture
+% FASZ = feladatszín
+\definecolor{FASZ}{RGB}{160, 187, 229}
+\definecolor{LESZ}{RGB}{206, 177, 224}
+\definecolor{MOSZ}{RGB}{102, 209, 141}
+\definecolor{LISZ}{RGB}{232, 219, 106}
+%\definecolor{MASZ}{RGB}{217, 210, 221}
+\definecolor{MASZ}{RGB}{210, 203, 214}
+
+
 \newcommand{\feher}[1]{%
 \begin{tcolorbox}[colback=white]
 #1
@@ -24,9 +34,19 @@
 \end{tcolorbox}
 }
 
+\newcommand{\Mat}[1]{%
+\begin{tcolorbox}[colback=MASZ, top=-5mm, bottom=3mm]
+\begin{gather*}
+#1
+\end{gather*}
+\end{tcolorbox}
+}
+
+
+
 
 \newcommand{\LINK}[1]{%
-\begin{tcolorbox}[colback=yellow!10!white]
+\begin{tcolorbox}[colback=LISZ]
 #1
 \end{tcolorbox}
 }
@@ -44,21 +64,32 @@
 }
 
 \newcommand{\Fa}[1]{%
-\begin{tcolorbox}[colback=brown!20!white]
+\begin{tcolorbox}[colback=FASZ]
 #1
 \end{tcolorbox}
 }
 
 \newcommand{\Fnew}[0]{%
 \end{tcolorbox}
-\begin{tcolorbox}[colback=brown!20!white]
+\begin{tcolorbox}[colback=FASZ]
+}
+
+\newcommand{\Desc}[1]{%
+\begin{tcolorbox}[colback=LESZ]
+#1
+\end{tcolorbox}
+}
+
+\newcommand{\Dnew}[0]{%
+\end{tcolorbox}
+\begin{tcolorbox}[colback=LESZ]
 }
 
 
 
 
 \newcommand{\Mo}[1]{%
-\begin{tcolorbox}[colback=green!17]
+\begin{tcolorbox}[colback=MOSZ]
 #1
 \end{tcolorbox}
 }
@@ -66,14 +97,19 @@
 
 \newcommand{\Mnew}[0]{%
 \end{tcolorbox}
-\begin{tcolorbox}[colback=green!17]
+\begin{tcolorbox}[colback=MOSZ]
 }
 
 
-\newcommand{\egy}[1]{%
+\newcommand{\egyFa}[1]{%
 \Fa{\input{#1Fa}}
 \Mo{\input{#1Mo}}
 }
+
+\newcommand{\egyDesc}[1]{%
+\Desc{\input{#1Desc}}
+}
+
 
 
 \definecolor{light-gray}{gray}{0.95}
