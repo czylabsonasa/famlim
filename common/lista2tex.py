@@ -109,8 +109,8 @@ def travlist(akt, path, lab, plab, mname):
          travlist(elem[3], path+'/'+elem[0], lab+elem[0], lab, elem[1])
       else:
          if 'F'==elem[2]:
-            nFa=r"\mcode{Fa}"+elem[1]
-            nMo=r"\mcode{Mo}"+elem[1]
+            nFa=r"\mtit{Fa}"+elem[1]
+            nMo=r"\mtit{Mo}"+elem[1]
             #print(r'\section*{{{name}}} \label{{{label}}}'.format(name=elem[1]+'-Fa', label=lab+elem[0]))
             print(r'\section*{{{name}}} \label{{{label}}}'.format(name=nFa, label=lab+elem[0]))
             print(r'\Fa{')
@@ -134,7 +134,8 @@ def travlist(akt, path, lab, plab, mname):
             print(r'}')
             print(r'\newpage')
          else:
-            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=r'\mcode{Desc} '+elem[1], label=lab+elem[0]))
+            nDesc=r'\mtit{Desc}'+elem[1]
+            print(r'\section*{{{name}}} \label{{{label}}}'.format(name=nDesc, label=lab+elem[0]))
             print(r'\Desc{')
             print(r'\input{{{f}}}'.format(f=path+'/'+elem[0]+'Desc'))
             print(r'}')
