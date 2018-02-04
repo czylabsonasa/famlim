@@ -20,14 +20,20 @@
 \newline
 \nameref{DBsin}
 \newpage
-\section*{az e-szám} \label{DBe}
+\section*{az $\mathrm{e}$-szám} \label{DBe}
 \nameref{DBe1}
+\newline
+\nameref{DBe2}
+\newline
+\nameref{DBeL3}
+\newline
+\nameref{DBe3}
 \vspace{0.5cm}
 \LINK{
 \hfill\nameref{DB}
 }
 \newpage
-\section*{\mtit{Fa}alap} \label{DBe1}
+\section*{\mtit{Fa}$\gzjel{1+\frac{1}{n}}^n$} \label{DBe1}
 \Fa{
 \input{DB/e/1Fa}
 }
@@ -37,13 +43,62 @@
 \hfill\nameref{DBe}
 }
 \newpage
-\section*{\mtit{Mo}alap} \label{DBe1Mo}
+\section*{\mtit{Mo}$\gzjel{1+\frac{1}{n}}^n$} \label{DBe1Mo}
 \Mo{
 \input{DB/e/1Mo}
 }
 \vspace{0.5cm}
 \LINK{
 \nameref{DBe1}
+\hfill\nameref{DBe}
+}
+\newpage
+\section*{\mtit{Fa}$\gzjel{1-\frac{1}{n}}^n$} \label{DBe2}
+\Fa{
+\input{DB/e/2Fa}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBe2Mo}
+\hfill\nameref{DBe}
+}
+\newpage
+\section*{\mtit{Mo}$\gzjel{1-\frac{1}{n}}^n$} \label{DBe2Mo}
+\Mo{
+\input{DB/e/2Mo}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBe2}
+\hfill\nameref{DBe}
+}
+\newpage
+\section*{\mtit{Desc}súlyozott AMGM} \label{DBeL3}
+\Desc{
+\input{DB/e/L3Desc}
+}
+\vspace{0.5cm}
+\LINK{
+\hfill\nameref{DBe}
+}
+\newpage
+\section*{\mtit{Fa}$\gzjel{1+\frac{1}{a_n}}^{a_n}$} \label{DBe3}
+\Fa{
+\input{DB/e/3Fa}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBe3Mo}
+\hfill\nameref{DBe}
+}
+\newpage
+\section*{\mtit{Mo}$\gzjel{1+\frac{1}{a_n}}^{a_n}$} \label{DBe3Mo}
+\Mo{
+\input{DB/e/3Mo}
+}
+\vspace{0.5cm}
+\LINK{
+\nameref{DBe3}
 \hfill\nameref{DBe}
 }
 \newpage
@@ -62,23 +117,12 @@
 \hfill\nameref{DB}
 }
 \newpage
-\section*{\mtit{Fa}Létezés...} \label{DBnthrootSum}
-\Fa{
-\input{DB/nthroot/SumFa}
+\section*{\mtit{Desc}Létezés...} \label{DBnthrootSum}
+\Desc{
+\input{DB/nthroot/SumDesc}
 }
 \vspace{0.5cm}
 \LINK{
-\nameref{DBnthrootSumMo}
-\hfill\nameref{DBnthroot}
-}
-\newpage
-\section*{\mtit{Mo}Létezés...} \label{DBnthrootSumMo}
-\Mo{
-\input{DB/nthroot/SumMo}
-}
-\vspace{0.5cm}
-\LINK{
-\nameref{DBnthrootSum}
 \hfill\nameref{DBnthroot}
 }
 \newpage

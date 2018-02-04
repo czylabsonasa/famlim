@@ -1,0 +1,23 @@
+\ref{wamgm}-ből egyszerűen megkapjuk, hogy:
+\Mat{
+   0\le A\le B \implies \gzjel{1+\frac{1}{A}}^{A}\le \gzjel{1+\frac{1}{B}}^{B}
+}
+
+Legyen $0\le a_n \to +\infty$ és $b_n=\gzjel{1+\frac{1}{a_n}}^{a_n}$ és $K\in\mathbb{N}$. 
+A feltevések miatt van olyan $n_K$, hogy ha $n\ge n_K$:
+
+\Mat{
+   \gzjel{1+\frac{1}{K}}^{K}\le b_n \le
+   \gzjel{1+\frac{1}{\floor{a_n}}}^{1+\floor{a_n}}
+}
+ezért:
+\Mat{
+   \gzjel{1+\frac{1}{K}}^{K}\le b_n \le \mathrm{e}
+}
+Ha $0\ge a_n \to -\infty$, akkor az
+\Mat{
+   1=\gzjel{1+\frac{1}{a_n}}^{-a_n}\gzjel{1+\frac{1}{-a_n+1}}^{-a_n}
+}
+átalakításból világos, hogy $b_n\to \mathrm{e}$.
+\newline 
+TODO: $|a_n|\to \infty$

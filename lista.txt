@@ -1,9 +1,12 @@
 famlim # Nevezetes határértékek # T
-   e           # az e-szám # T
-      1              # alap # F
+   e           # az $\mathrm{e}$-szám # T
+      1              # $\gzjel{1+\frac{1}{n}}^n$ # F
+      2              # $\gzjel{1-\frac{1}{n}}^n$ # F
+      L3             # súlyozott AMGM # D
+      3              # $\gzjel{1+\frac{1}{a_n}}^{a_n}$ # F
    #
    nthroot     # n-edik gyök # T
-      Sum            # Létezés... # F
+      Sum            # Létezés... # D
       1              # konstans # F
       2              # $n$ # F
       2a             # polinom # F
