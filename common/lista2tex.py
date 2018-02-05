@@ -14,6 +14,7 @@ thepre=r"""
 \input{common/tcboxdef.tex}
 
 \begin{document}\begin{spacing}{1.2}
+\pagecolor{BGSZ}
 """
 
 thepost=r"""

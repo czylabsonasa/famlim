@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  4 FEB 2018 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.14)  5 FEB 2018 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,12 +1520,13 @@ e
 ))
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count320
+\GPT@outputbox=\box71
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./DB/e/1Fa.tex) [3] (
 ./DB/e/1Mo.tex) [4] (./DB/e/2Fa.tex)
 [5] (./DB/e/2Mo.tex) [6] (./DB/e/L3Desc.tex) [7] (./DB/e/3Fa.tex) [8]
-(./DB/e/3Mo.tex) [9] [10] (./DB/nthroot/SumDesc.tex
+(./DB/e/3Mo.tex) [9] [10] (./DB/nthroot/SumDesc.tex [11]
 Package epstopdf Info: Source file: <DB/fig/nthroot.eps>
 (epstopdf)                    date: 2018-01-28 13:59:03
 (epstopdf)                    size: 44303 bytes
@@ -1540,7 +1541,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./DB/fig/nthroot-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<DB/fig/nthroot-eps-converted-to.pdf, id=138, pagebox=cropbox, 217.81375pt x 66
+<DB/fig/nthroot-eps-converted-to.pdf, id=144, pagebox=cropbox, 217.81375pt x 66
 .2475pt>
 File: DB/fig/nthroot-eps-converted-to.pdf Graphic file (type pdf)
 <use DB/fig/nthroot-eps-converted-to.pdf>
@@ -1548,50 +1549,50 @@ Package pdftex.def Info: DB/fig/nthroot-eps-converted-to.pdf  used on input lin
 e 30. on input line 30.
 Package pdftex.def Info: Requested size: 261.37517pt x 79.49658pt on input line
  30.
-) [11] [12 <./DB/fig/nthroot-eps-converted-to.pdf>] (./DB/nthroot/1Fa.tex)
-[13] (./DB/nthroot/1Mo.tex) [14] (./DB/nthroot/2Fa.tex) [15]
-(./DB/nthroot/2Mo.tex) [16] (./DB/nthroot/2aFa.tex) [17] (./DB/nthroot/2aMo.tex
-) [18] (./DB/nthroot/3Fa.tex) [19] (./DB/nthroot/3Mo.tex) [20] [21]
+) [12 <./DB/fig/nthroot-eps-converted-to.pdf>] (./DB/nthroot/1Fa.tex) [13]
+(./DB/nthroot/1Mo.tex) [14] (./DB/nthroot/2Fa.tex) [15] (./DB/nthroot/2Mo.tex)
+[16] (./DB/nthroot/2aFa.tex) [17] (./DB/nthroot/2aMo.tex) [18]
+(./DB/nthroot/3Fa.tex) [19] (./DB/nthroot/3Mo.tex) [20] [21]
 (./DB/sin/SumDesc.tex
-Package epstopdf Info: Source file: <DB/fig/sin.eps>
+Package epstopdf Info: Source file: <DB/fig/sintan.eps>
 (epstopdf)                    date: 2018-02-03 18:05:08
 (epstopdf)                    size: 372844 bytes
-(epstopdf)             Output file: <DB/fig/sin-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-02-03 18:05:18
+(epstopdf)             Output file: <DB/fig/sintan-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-02-05 08:06:11
 (epstopdf)                    size: 42450 bytes
-(epstopdf)             Command: <repstopdf --outfile=DB/fig/sin-eps-converted-t
-o.pdf DB/fig/sin.eps>
-(epstopdf)             \includegraphics on input line 5.
+(epstopdf)             Command: <repstopdf --outfile=DB/fig/sintan-eps-converte
+d-to.pdf DB/fig/sintan.eps>
+(epstopdf)             \includegraphics on input line 4.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex (file ./DB/fig/sin-eps-converted-to.pdf): PDF inclusio
-n: found PDF version <1.5>, but at most version <1.4> allowed
-<DB/fig/sin-eps-converted-to.pdf, id=219, pagebox=cropbox, 1230.5975pt x 977.65
-25pt>
-File: DB/fig/sin-eps-converted-to.pdf Graphic file (type pdf)
-<use DB/fig/sin-eps-converted-to.pdf>
-Package pdftex.def Info: DB/fig/sin-eps-converted-to.pdf  used on input line 5.
- on input line 5.
+pdfTeX warning: pdflatex (file ./DB/fig/sintan-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.5>, but at most version <1.4> allowed
+<DB/fig/sintan-eps-converted-to.pdf, id=219, pagebox=cropbox, 1230.5975pt x 977
+.6525pt>
+File: DB/fig/sintan-eps-converted-to.pdf Graphic file (type pdf)
+<use DB/fig/sintan-eps-converted-to.pdf>
+Package pdftex.def Info: DB/fig/sintan-eps-converted-to.pdf  used on input line
+ 4. on input line 4.
 Package pdftex.def Info: Requested size: 497.63881pt x 395.35039pt on input lin
-e 5.
-) [22 <./DB/fig/sin-eps-converted-to.pdf>] (./DB/sin/1Fa.tex) [23]
+e 4.
+) [22 <./DB/fig/sintan-eps-converted-to.pdf>] (./DB/sin/1Fa.tex) [23]
 (./DB/sin/1Mo.tex) [24] (./DB/sin/2Fa.tex) [25] (./DB/sin/2Mo.tex) [26]
 (./DB/sin/3Fa.tex) [27] (./DB/sin/3Mo.tex) [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 36953 strings out of 494275
- 713922 string characters out of 6162937
- 787886 words of memory out of 5000000
- 39723 multiletter control sequences out of 15000+600000
+ 36959 strings out of 494275
+ 713969 string characters out of 6162937
+ 786159 words of memory out of 5000000
+ 39728 multiletter control sequences out of 15000+600000
  541044 words of font info for 54 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  66i,17n,101p,10511b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1606,7 +1607,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (28 pages, 246409 bytes).
+Output written on main.pdf (28 pages, 247356 bytes).
 PDF statistics:
  416 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
