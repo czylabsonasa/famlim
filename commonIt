@@ -4,8 +4,8 @@ echo "refresing common files"
 cd common
 chmod --silent +w *
 rm -f *.*
-cp ../../common/* .
-cp makefile pushIt addIt commonIt cleanIt ..
+cp --preserve=all ../../common/* .
+cp --preserve=all makefile pushIt addIt commonIt cleanIt ..
 chmod 0 *
 chmod +r *
 cd ..

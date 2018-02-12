@@ -86,6 +86,8 @@ def travlist(akt, path, lab, plab, mname):
    #print(r'Tartalom\newline')
    for elem in akt:
       print(r'\nameref{{{label}}}'.format(label=lab+elem[0]))
+      #DBG
+      print(' [ '+elem[0]+' '+elem[2]+' ]')
       if elem != akt[-1]:
          print(r'\newline')
 
